@@ -1,0 +1,59 @@
+@import url("../css/fonts.css");
+*{box-sizing: border-box; -webkit-box-sizing: border-box; margin: 0; font-family: abel;}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%; margin: auto;
+    padding: 0 80px;
+}
+
+.row{
+
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.col-1{width: 8.33%; float: left;}
+.col-2{width: 16.66%; float: left;}
+.col-3{width: 25%; float: left;}
+.col-4{width: 33.33%; float: left;}
+.col-5{width: 41.66%; float: left;}
+.col-6{width: 50%; float: left;}
+.col-7{width: 58.33%; float: left;}
+.col-8{width: 66.66%; float: left;}
+.col-9{width: 75%; float: left;}
+.col-10{width: 83.33%; float: left;}
+.col-11{width: 91.66%; float: left;}
+.col-12{width: 100%; float: left;}
+
+/* menu */
+.menu{text-align: center;}
+.menu > h1{margin-top: 30px;}
+.menu > p{margin: 10px 0 40px 0; font-size: 20px; font-family: lobster;}
+.menu-items{padding: 20px; text-align: left;}
+.menu-items > .col-2 > p{color: orangered; float: right;}
+.menu-items > .col-10{padding-right: 20px;}
+.social{text-align: center; margin-top: 80px;}
+.social i{padding: 5px;}
+.social > .fa-facebook-square{color: blue;}
+.social > .fa-twitter-square{color: lightseagreen;}
+.social > .fa-instagram{color: red;}
+.social > hr{margin-top: 40px; margin-bottom: 10px;}
+.social > p{margin-bottom: 10px;}
+
+/* responsive design */
+@media screen and (max-width:1220px){
+    .container{width: 100%; padding: 60px;}
+}
+@media screen and (max-width:1000px){
+    .container{width: 100%; padding: 40px;}
+}
+@media screen and (max-width:770px){
+    .item{width: 100%; padding: 10px;}
+}
